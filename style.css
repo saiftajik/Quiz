@@ -1,4 +1,28 @@
 .header{
     background-color: rgb(255, 115, 0);
-    color: white;
 }
+ .search-container {
+      margin: 50px;
+    }
+
+       input[type="text"] {
+      padding: 8px;
+      width: 250px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: white;
+    }
+
+    
+    button {
+      padding: 8px 12px;
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #357ae8;
+    } 
